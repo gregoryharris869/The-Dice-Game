@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>The Dice Roller</h1>
+
+        <div class="header">
+            <label for="number-of-dice">DO YOU FEEL LUCKY? </label>
+            <input type="text" name="number-of-dice" id="number-of-dice" required minlength="1" maxlength="1" size="1">
+        </div>
+
+        <button id="roll-button">Roll!</button>
+
+        <br>
+
+    </div>
+
+
+    <div id="Total">Total</div>
+
+    <button id="show-all-rolls">Show All Rolls</button>
+
+    <ol id="rolls-list"></ol>
+
+
+    <script src="./assets/javascript/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+* {box-sizing: border-box;}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+    background-color: rgb(52, 46, 55);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(248, 243, 227);
+    font-size: 70px;
+    text-decoration: underline;
+    
+    
+}
+
+
+.header{
+    text-align: center;
+    color: rgb(248, 243, 227);
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+#number-of-dice{
+
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+    border-radius: 8px;
+    
+
+}
+
+
+#roll-button{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  border-radius: 8px;
+
+  
+}
+
+#Total{
+
+    text-align: center;
+    color: rgb(248, 243, 227);
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+#show-all-rolls{
+   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  border-radius: 8px;
+
+  
+}
+
+#rolls-list{
+    text-align: center;
+    color: rgb(248, 243, 227);
+    font-size: 40px;
+    text-decoration: underline;
+}
+
